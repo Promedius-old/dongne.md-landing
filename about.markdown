@@ -1,8 +1,8 @@
 ---
-#layout: page
-layout: home
-# permalink: /about/
-permalink: /
+layout: default
+permalink: /about
+redirect_from:
+  - /
 ---
 
 ![](/assets/img/about.png)
