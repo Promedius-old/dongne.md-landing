@@ -19,18 +19,30 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 동네의사
-email: dongne.md@promedius.ai
+author:
+  name: Promedius
+  email: dongne.md@promedius.ai
 description: >- # this means to ignore newlines until "baseurl:"
   "동네의사"는 환자와 의사를 이어주는 비대면 진료 플랫폼 입니다.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.dongne.md" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dongnemd
+
+minima:
+  date_format: "%F"
+
+  # generate social links in footer
+  social_links:
+    twitter: 'dongnemd'
+    github: false  # remove social link icon
 
 # Build settings
 theme: minima
+
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
