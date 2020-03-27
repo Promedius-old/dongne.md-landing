@@ -21,7 +21,7 @@
 title: 동네의사
 author:
   name: Promedius
-  email: dongne.md@promedius.ai
+  email: contact@promedius.ai
 description: >- # this means to ignore newlines until "baseurl:"
   "동네의사"는 환자와 의사를 이어주는 비대면 진료 플랫폼 입니다.
 
@@ -34,6 +34,7 @@ minima:
   # generate social links in footer
   social_links:
     twitter: 'dongnemd'
+    facebook: 'dongnemd'
     github: false  # remove social link icon
 
 # Build settings
