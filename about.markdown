@@ -1,6 +1,7 @@
 ---
 layout: default
 #permalink: /about/
+title: "소개"
 redirect_from:
   - /
 ---
