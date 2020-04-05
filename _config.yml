@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   "동네의사"는 환자와 의사를 이어주는 비대면 진료 플랫폼 입니다.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.dongne.md" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.dongne.md" # the base hostname & protocol for your site, e.g. http://example.com
 
 minima:
   date_format: "%F"
